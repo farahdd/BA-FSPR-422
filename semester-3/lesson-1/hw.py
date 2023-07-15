@@ -9,6 +9,7 @@ def parse_vox():
         res = requests.get(url)
         soup = BeautifulSoup(res.text, "html.parser")
         titles = soup.find_all(class_="c-entry-box--compact__title")
+        author = soup.find_all
 
         for title in titles:
             results.append(

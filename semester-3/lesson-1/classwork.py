@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from pprint import pprint
 
 def parse_ycombinator():
     results = []
