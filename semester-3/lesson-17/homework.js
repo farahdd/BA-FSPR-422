@@ -13,4 +13,4 @@ function accum(s) {
   }
   return result.join("-");
 }
-console.log(mumbling("gnn1"));
+console.log(accum("gnn1"));
