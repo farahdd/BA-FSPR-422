@@ -50,3 +50,14 @@ console.log(killer({'James': ['Jacob', 'Bill', 'Lucas'],
 'Johnny': ['David', 'Kyle', 'Lucas'],
 'Peter': ['Lucy', 'Kyle']}, ['Lucas', 'Bill']));
 
+
+// Fibbonaci
+function nthFibo(n) {
+    if (n == 1) {
+      return 0
+    } else if (n == 2) {
+      return 1
+    }
+    return nthFibo(n-2) + nthFibo(n-1)
+  }
+
