@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="container-content">
+    <h1>{{ description | title}}</h1>
+    <p>{{ description | capitalize }}</p>
+    <h2>Ingredients</h2>
+    <ul>
+        {% for i in ingredients_list %}
+        <li>{{ i }}</li>
+        {% endfor%}
+    </ul>
+    <h2>Steps:</h2>
+    <ul class="instructions-list">
+        {% for step, recipe in instructions.items() %}
+        <li>{{ step }} : {{ recipe }}</li>
+        {% endfor%}
+    </ul>
+</section>
+{% endblock %}

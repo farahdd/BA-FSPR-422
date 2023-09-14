@@ -1,0 +1,71 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header .container{
+    padding: 15px 20px;
+    margin-bottom: 30px;
+}
+
+#home-link {
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+
+#home-link:hover {
+    text-decoration: underline;
+}
+#home-link:visited {
+    color: #000;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.container-content {
+    padding: 20px 15px;
+}
+
+.recipes-list {
+    margin-left: 35px;
+}
+
+ul, ol {
+    margin-left: 35px;
+    margin-bottom: 40px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+.instructions-list {
+    list-style-type: none;
+}
+
+p {
+    margin-bottom: 20px;
+}
